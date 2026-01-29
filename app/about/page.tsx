@@ -127,11 +127,55 @@ export default function AboutPage() {
           </div>
         </motion.div>
 
+        {/* Disclaimer */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6 }}
+          className="bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-2xl p-6"
+        >
+          <h2 className="text-xl font-bold text-amber-800 dark:text-amber-200 mb-4 flex items-center gap-2">
+            <span>⚠️</span> Disclaimer
+          </h2>
+          <div className="text-amber-700 dark:text-amber-300 text-sm space-y-3">
+            <p>
+              This app is created for <strong>educational purposes only</strong>.
+              All flag data and country information is sourced from public APIs
+              and may not be 100% accurate or up-to-date.
+            </p>
+            <p>
+              The author assumes <strong>no legal responsibility</strong> for the
+              use of this application or any information displayed within it.
+            </p>
+            <p>
+              If you have any concerns, questions, or issues with the content,
+              please contact the author via{" "}
+              <a
+                href="https://twitter.com/shyamverma"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline font-medium hover:text-amber-900 dark:hover:text-amber-100"
+              >
+                Twitter
+              </a>{" "}
+              or{" "}
+              <a
+                href="https://linkedin.com/in/shyamverma"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline font-medium hover:text-amber-900 dark:hover:text-amber-100"
+              >
+                LinkedIn
+              </a>.
+            </p>
+          </div>
+        </motion.div>
+
         {/* Back to Home */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.6 }}
+          transition={{ delay: 0.7 }}
           className="text-center"
         >
           <Link href="/">
