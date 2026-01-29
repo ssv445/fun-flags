@@ -31,12 +31,15 @@ export function Header() {
           </Link>
 
           {/* Navigation */}
-          <nav className="flex items-center gap-2 md:gap-4">
+          <nav className="flex items-center gap-1 md:gap-3">
             <NavLink href="/" active={pathname === "/"}>
               <span className="hidden sm:inline">🏠</span> Home
             </NavLink>
             <NavLink href="/slideshow" active={pathname === "/slideshow"}>
               <span className="hidden sm:inline">🎬</span> Slideshow
+            </NavLink>
+            <NavLink href="/about" active={pathname === "/about"}>
+              <span className="hidden sm:inline">👋</span> About
             </NavLink>
           </nav>
         </div>

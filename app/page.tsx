@@ -106,7 +106,7 @@ export default function HomePage() {
       </section>
 
       {/* Main Content */}
-      <section className="max-w-7xl mx-auto px-4 py-8">
+      <section className="max-w-7xl mx-auto px-4 py-8 overflow-hidden">
         {/* Filters */}
         <FilterBar
           filters={filters}

@@ -2,7 +2,7 @@
 
 import { Flag } from "@/lib/types";
 import { FlagCard, FlagCardSkeleton } from "./FlagCard";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 interface FlagGridProps {
   flags: Flag[];
@@ -41,11 +41,9 @@ export function FlagGrid({ flags, loading = false, emptyMessage = "No flags foun
 
   return (
     <div className="flag-grid">
-      <AnimatePresence mode="popLayout">
-        {flags.map((flag, index) => (
-          <FlagCard key={flag.code} flag={flag} index={index} />
-        ))}
-      </AnimatePresence>
+      {flags.map((flag, index) => (
+        <FlagCard key={flag.code} flag={flag} index={index} />
+      ))}
     </div>
   );
 }

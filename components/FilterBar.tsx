@@ -89,115 +89,89 @@ export function FilterBar({ filters, onFilterChange, flagCount }: FilterBarProps
             exit={{ opacity: 0, height: 0 }}
             className="overflow-hidden"
           >
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-4 md:p-6 shadow-lg space-y-6">
-              {/* Color Filter */}
-              <div>
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 flex items-center gap-2">
-                    <span className="text-lg">🎨</span> By Color
+            <div className="bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-lg">
+              {/* All filters in one compact section */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {/* Color Filter */}
+                <div>
+                  <h3 className="text-xs font-bold text-gray-500 dark:text-gray-400 mb-2 uppercase tracking-wide">
+                    🎨 Colors
                   </h3>
-                  <span className="text-xs text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded-full">
-                    Multi-select
-                  </span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {FILTER_COLORS.map((color) => {
+                      const isSelected = filters.colors.includes(color.hex);
+                      return (
+                        <motion.button
+                          key={color.hex}
+                          onClick={() => toggleColor(color.hex)}
+                          className={`
+                            w-7 h-7 rounded-full flex-shrink-0 transition-all
+                            ${color.hex === "#FFFFFF" ? "border border-gray-300" : ""}
+                            ${isSelected ? "ring-2 ring-coral ring-offset-2" : "hover:scale-110"}
+                          `}
+                          style={{ backgroundColor: color.hex }}
+                          whileTap={{ scale: 0.9 }}
+                          aria-label={`Filter by ${color.name}`}
+                          title={color.name}
+                        />
+                      );
+                    })}
+                  </div>
+                  {filters.colors.length > 0 && (
+                    <p className="text-xs text-coral mt-2">
+                      {filters.colors.length} color{filters.colors.length > 1 ? "s" : ""} selected
+                    </p>
+                  )}
                 </div>
-                <div className="flex flex-wrap gap-2">
-                  {FILTER_COLORS.map((color) => {
-                    const isSelected = filters.colors.includes(color.hex);
-                    return (
+
+                {/* Color Count Filter */}
+                <div>
+                  <h3 className="text-xs font-bold text-gray-500 dark:text-gray-400 mb-2 uppercase tracking-wide">
+                    🔢 Colors Count
+                  </h3>
+                  <div className="flex flex-wrap gap-1.5">
+                    {[1, 2, 3, 4, 5, 6].map((count) => (
                       <motion.button
-                        key={color.hex}
-                        onClick={() => toggleColor(color.hex)}
+                        key={count}
+                        onClick={() => setColorCount(count)}
                         className={`
-                          flex items-center gap-2 px-3 py-2 rounded-full
-                          border-2 transition-all text-sm font-medium
-                          ${isSelected
-                            ? "border-coral bg-coral/10 text-coral"
-                            : "border-gray-200 dark:border-gray-600 text-gray-600 dark:text-gray-400 hover:border-gray-300"
+                          w-8 h-8 rounded-full font-bold text-sm transition-all
+                          ${filters.colorCount === count
+                            ? "bg-coral text-white"
+                            : "bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200"
                           }
                         `}
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        aria-label={`Filter by ${color.name}`}
+                        whileTap={{ scale: 0.9 }}
                       >
-                        <span
-                          className={`w-5 h-5 rounded-full flex-shrink-0 ${color.hex === "#FFFFFF" ? "border border-gray-300" : ""}`}
-                          style={{ backgroundColor: color.hex }}
-                        />
-                        <span>{color.name}</span>
-                        {isSelected && (
-                          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                          </svg>
-                        )}
+                        {count === 6 ? "6+" : count}
                       </motion.button>
-                    );
-                  })}
+                    ))}
+                  </div>
                 </div>
-                {/* Selected colors summary */}
-                {filters.colors.length > 0 && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="mt-3 p-3 bg-coral/10 rounded-xl"
-                  >
-                    <p className="text-sm text-coral font-medium">
-                      Showing flags with {filters.colors.length === 1 ? "this color" : `all ${filters.colors.length} colors`}
-                    </p>
-                  </motion.div>
-                )}
-              </div>
 
-              {/* Color Count Filter */}
-              <div>
-                <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-3 flex items-center gap-2">
-                  <span className="text-lg">🔢</span> Number of Colors
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {[1, 2, 3, 4, 5, 6].map((count) => (
-                    <motion.button
-                      key={count}
-                      onClick={() => setColorCount(count)}
-                      className={`
-                        px-4 py-2 rounded-full font-bold text-sm
-                        transition-all
-                        ${filters.colorCount === count
-                          ? "bg-coral text-white"
-                          : "bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
-                        }
-                      `}
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      {count === 6 ? "6+" : count}
-                    </motion.button>
-                  ))}
-                </div>
-              </div>
-
-              {/* Continent Filter */}
-              <div>
-                <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-3 flex items-center gap-2">
-                  <span className="text-lg">🌍</span> By Continent
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {CONTINENTS.map((continent) => (
-                    <motion.button
-                      key={continent}
-                      onClick={() => setContinent(continent)}
-                      className={`
-                        px-4 py-2 rounded-full font-semibold text-sm
-                        transition-all
-                        ${filters.continent === continent
-                          ? "bg-sky text-white"
-                          : "bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
-                        }
-                      `}
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      {continent}
-                    </motion.button>
-                  ))}
+                {/* Continent Filter */}
+                <div>
+                  <h3 className="text-xs font-bold text-gray-500 dark:text-gray-400 mb-2 uppercase tracking-wide">
+                    🌍 Continent
+                  </h3>
+                  <div className="flex flex-wrap gap-1.5">
+                    {CONTINENTS.map((continent) => (
+                      <motion.button
+                        key={continent}
+                        onClick={() => setContinent(continent)}
+                        className={`
+                          px-2.5 py-1 rounded-full font-medium text-xs transition-all
+                          ${filters.continent === continent
+                            ? "bg-sky text-white"
+                            : "bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200"
+                          }
+                        `}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        {continent}
+                      </motion.button>
+                    ))}
+                  </div>
                 </div>
               </div>
 
@@ -207,7 +181,7 @@ export function FilterBar({ filters, onFilterChange, flagCount }: FilterBarProps
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   onClick={clearFilters}
-                  className="w-full py-3 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                  className="mt-4 w-full py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 font-medium text-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                 >
                   Clear All Filters
                 </motion.button>

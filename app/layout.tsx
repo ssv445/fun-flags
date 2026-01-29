@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Nunito, Fredoka } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import { ServiceWorkerRegistration } from "@/components/ServiceWorker";
 import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants";
 
 const nunito = Nunito({
@@ -66,6 +67,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icons/icon-192.png" />
       </head>
       <body className="antialiased dark-transition min-h-screen bg-cream dark:bg-dark">
+        <ServiceWorkerRegistration />
         <Header />
         <main>{children}</main>
       </body>

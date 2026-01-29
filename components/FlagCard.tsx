@@ -12,22 +12,26 @@ interface FlagCardProps {
 }
 
 export function FlagCard({ flag, index = 0, onClick, showName = true }: FlagCardProps) {
+  // Limit stagger delay to first 20 cards for performance
+  const staggerDelay = index < 20 ? index * 0.02 : 0;
+
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.8 }}
+      className="w-full min-w-0"
+      initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{
-        duration: 0.3,
-        delay: index * 0.02,
+        duration: 0.2,
+        delay: staggerDelay,
         ease: "easeOut",
       }}
-      whileHover={{ scale: 1.05, rotate: 1 }}
-      whileTap={{ scale: 0.95 }}
+      whileHover={{ scale: 1.03 }}
+      whileTap={{ scale: 0.97 }}
     >
       <Link
         href={`/flag/${flag.code.toLowerCase()}`}
         onClick={onClick}
-        className="block flag-card bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
+        className="block flag-card bg-[#F8F4EF] dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow w-full"
       >
         <div
           className={`aspect-[4/3] fi fi-${flag.code.toLowerCase()}`}
