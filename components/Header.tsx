@@ -14,11 +14,11 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <motion.div
-              className="text-3xl"
+              className="text-2xl"
               whileHover={{ rotate: 10, scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              🏳️‍🌈
+              🌍🚩
             </motion.div>
             <div>
               <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-coral via-sunny to-sky bg-clip-text text-transparent">
