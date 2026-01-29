@@ -92,32 +92,59 @@ export function FilterBar({ filters, onFilterChange, flagCount }: FilterBarProps
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-4 md:p-6 shadow-lg space-y-6">
               {/* Color Filter */}
               <div>
-                <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-3 flex items-center gap-2">
-                  <span className="text-lg">🎨</span> By Color
-                </h3>
-                <div className="flex flex-wrap gap-3">
-                  {FILTER_COLORS.map((color) => (
-                    <motion.button
-                      key={color.hex}
-                      onClick={() => toggleColor(color.hex)}
-                      className={`
-                        color-dot
-                        w-10 h-10 rounded-full
-                        border-4 transition-all
-                        ${filters.colors.includes(color.hex)
-                          ? "border-coral scale-110 ring-2 ring-coral/30"
-                          : "border-gray-200 dark:border-gray-600"
-                        }
-                        ${color.hex === "#FFFFFF" ? "shadow-md" : ""}
-                      `}
-                      style={{ backgroundColor: color.hex }}
-                      whileHover={{ scale: 1.2 }}
-                      whileTap={{ scale: 0.9 }}
-                      title={color.name}
-                      aria-label={`Filter by ${color.name}`}
-                    />
-                  ))}
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-sm font-bold text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                    <span className="text-lg">🎨</span> By Color
+                  </h3>
+                  <span className="text-xs text-gray-400 bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded-full">
+                    Multi-select
+                  </span>
                 </div>
+                <div className="flex flex-wrap gap-2">
+                  {FILTER_COLORS.map((color) => {
+                    const isSelected = filters.colors.includes(color.hex);
+                    return (
+                      <motion.button
+                        key={color.hex}
+                        onClick={() => toggleColor(color.hex)}
+                        className={`
+                          flex items-center gap-2 px-3 py-2 rounded-full
+                          border-2 transition-all text-sm font-medium
+                          ${isSelected
+                            ? "border-coral bg-coral/10 text-coral"
+                            : "border-gray-200 dark:border-gray-600 text-gray-600 dark:text-gray-400 hover:border-gray-300"
+                          }
+                        `}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        aria-label={`Filter by ${color.name}`}
+                      >
+                        <span
+                          className={`w-5 h-5 rounded-full flex-shrink-0 ${color.hex === "#FFFFFF" ? "border border-gray-300" : ""}`}
+                          style={{ backgroundColor: color.hex }}
+                        />
+                        <span>{color.name}</span>
+                        {isSelected && (
+                          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                          </svg>
+                        )}
+                      </motion.button>
+                    );
+                  })}
+                </div>
+                {/* Selected colors summary */}
+                {filters.colors.length > 0 && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="mt-3 p-3 bg-coral/10 rounded-xl"
+                  >
+                    <p className="text-sm text-coral font-medium">
+                      Showing flags with {filters.colors.length === 1 ? "this color" : `all ${filters.colors.length} colors`}
+                    </p>
+                  </motion.div>
+                )}
               </div>
 
               {/* Color Count Filter */}

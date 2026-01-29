@@ -25,6 +25,13 @@ export const FILTER_COLORS = [
   { name: "White", hex: "#FFFFFF" },
   { name: "Black", hex: "#212121" },
   { name: "Orange", hex: "#FB8C00" },
+  { name: "Light Blue", hex: "#4FC3F7" },
+  { name: "Maroon", hex: "#8B0000" },
+  { name: "Gold", hex: "#FFD700" },
+  { name: "Brown", hex: "#795548" },
+  { name: "Pink", hex: "#E91E63" },
+  { name: "Purple", hex: "#7B1FA2" },
+  { name: "Teal", hex: "#009688" },
 ] as const;
 
 export const CONTINENTS = [
