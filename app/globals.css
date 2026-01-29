@@ -1,0 +1,225 @@
+@import "tailwindcss";
+@import "flag-icons/css/flag-icons.min.css";
+
+@theme {
+  /* Kid-Friendly Colors */
+  --color-coral: #FF6B6B;
+  --color-sunny: #FFE66D;
+  --color-sky: #4ECDC4;
+  --color-purple: #A78BFA;
+  --color-orange: #FF9F43;
+  --color-cream: #FFF5E6;
+  --color-dark: #1A1A2E;
+  --color-dark-card: #2D2D44;
+
+  /* Filter Colors */
+  --color-filter-red: #E53935;
+  --color-filter-blue: #1E88E5;
+  --color-filter-green: #43A047;
+  --color-filter-yellow: #FDD835;
+  --color-filter-white: #FFFFFF;
+  --color-filter-black: #212121;
+  --color-filter-orange: #FB8C00;
+
+  /* Fonts */
+  --font-display: "Fredoka", var(--font-sans);
+  --font-body: "Nunito", var(--font-sans);
+
+  /* Animations */
+  --animate-bounce-slow: bounce 2s infinite;
+  --animate-wiggle: wiggle 0.5s ease-in-out;
+  --animate-pulse-soft: pulse-soft 2s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(100%); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slide-out {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(-100%); }
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-cream);
+  min-height: 100vh;
+}
+
+.dark body {
+  background: var(--color-dark);
+  color: white;
+}
+
+/* Flag icon sizing */
+.fi {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+
+/* Fun hover effects */
+.flag-card {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.flag-card:hover {
+  transform: scale(1.08) rotate(2deg);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.flag-card:active {
+  transform: scale(0.95);
+}
+
+/* Color filter dots */
+.color-dot {
+  transition: all 0.2s ease;
+}
+
+.color-dot:hover {
+  transform: scale(1.3);
+}
+
+.color-dot.active {
+  ring: 4px solid currentColor;
+  transform: scale(1.2);
+}
+
+/* Slideshow transitions */
+.slideshow-slide {
+  animation: slide-in 0.4s ease-out;
+}
+
+.slideshow-slide-exit {
+  animation: slide-out 0.4s ease-in;
+}
+
+/* Search input */
+.search-input {
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  transform: scale(1.02);
+  box-shadow: 0 0 0 4px rgba(255, 107, 107, 0.3);
+}
+
+/* Button animations */
+.btn-bounce {
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.btn-bounce:hover {
+  transform: translateY(-4px);
+}
+
+.btn-bounce:active {
+  transform: translateY(0);
+}
+
+/* Gradient backgrounds */
+.gradient-warm {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+}
+
+.gradient-cool {
+  background: linear-gradient(135deg, #4ECDC4 0%, #A78BFA 100%);
+}
+
+.gradient-sunset {
+  background: linear-gradient(135deg, #FF9F43 0%, #FF6B6B 100%);
+}
+
+/* Dark mode transitions */
+.dark-transition {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Confetti container */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* PWA Install prompt */
+.install-prompt {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Touch-friendly sizing */
+@media (hover: none) {
+  .flag-card:hover {
+    transform: none;
+  }
+
+  .flag-card:active {
+    transform: scale(0.95);
+  }
+}
+
+/* Responsive grid */
+.flag-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 480px) {
+  .flag-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 640px) {
+  .flag-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .flag-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .flag-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .flag-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}

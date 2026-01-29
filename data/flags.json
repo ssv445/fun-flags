@@ -1,0 +1,4413 @@
+[
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "continent": "Asia",
+    "capital": "Kabul",
+    "colors": [
+      "#000000",
+      "#D32011",
+      "#007A36",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 43844000,
+    "area": 652230,
+    "languages": [
+      "Dari",
+      "Pashto",
+      "Turkmen"
+    ]
+  },
+  {
+    "code": "AX",
+    "name": "Åland Islands",
+    "continent": "Europe",
+    "capital": "Mariehamn",
+    "colors": [
+      "#0053A5",
+      "#FECC00",
+      "#DA291C"
+    ],
+    "colorCount": 3,
+    "population": 30654,
+    "area": 1580,
+    "languages": [
+      "Swedish"
+    ]
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "continent": "Europe",
+    "capital": "Tirana",
+    "colors": [
+      "#E41E20",
+      "#000000"
+    ],
+    "colorCount": 2,
+    "population": 2363314,
+    "area": 28748,
+    "languages": [
+      "Albanian"
+    ]
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "continent": "Africa",
+    "capital": "Algiers",
+    "colors": [
+      "#006233",
+      "#FFFFFF",
+      "#D21034"
+    ],
+    "colorCount": 3,
+    "population": 47400000,
+    "area": 2381741,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "AS",
+    "name": "American Samoa",
+    "continent": "Oceania",
+    "capital": "Pago Pago",
+    "colors": [
+      "#002B7F",
+      "#FFFFFF",
+      "#BF0A30"
+    ],
+    "colorCount": 3,
+    "population": 49710,
+    "area": 199,
+    "languages": [
+      "English",
+      "Samoan"
+    ]
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "continent": "Europe",
+    "capital": "Andorra la Vella",
+    "colors": [
+      "#0018A8",
+      "#FEDF00",
+      "#D52B1E"
+    ],
+    "colorCount": 3,
+    "population": 88406,
+    "area": 468,
+    "languages": [
+      "Catalan"
+    ]
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "continent": "Africa",
+    "capital": "Luanda",
+    "colors": [
+      "#CC092F",
+      "#000000",
+      "#FFCC00"
+    ],
+    "colorCount": 3,
+    "population": 36170961,
+    "area": 1246700,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "continent": "North America",
+    "capital": "The Valley",
+    "colors": [
+      "#012169",
+      "#FFFFFF",
+      "#C8102E"
+    ],
+    "colorCount": 3,
+    "population": 16010,
+    "area": 91,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "AQ",
+    "name": "Antarctica",
+    "continent": "Antarctica",
+    "capital": "N/A",
+    "colors": [],
+    "colorCount": 0,
+    "population": 1300,
+    "area": 14000000,
+    "languages": []
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "continent": "North America",
+    "capital": "Saint John's",
+    "colors": [
+      "#000000",
+      "#FCD116",
+      "#CE1126",
+      "#0072C6",
+      "#FFFFFF"
+    ],
+    "colorCount": 5,
+    "population": 103603,
+    "area": 442,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "continent": "South America",
+    "capital": "Buenos Aires",
+    "colors": [
+      "#74ACDF",
+      "#FFFFFF",
+      "#FCBF49"
+    ],
+    "colorCount": 3,
+    "population": 46735004,
+    "area": 2780400,
+    "languages": [
+      "Guaraní",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "continent": "Asia",
+    "capital": "Yerevan",
+    "colors": [
+      "#D90012",
+      "#0033A0",
+      "#F2A800"
+    ],
+    "colorCount": 3,
+    "population": 3076200,
+    "area": 29743,
+    "languages": [
+      "Armenian"
+    ]
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "continent": "North America",
+    "capital": "Oranjestad",
+    "colors": [
+      "#4189DD",
+      "#F9E814",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 4,
+    "population": 107566,
+    "area": 180,
+    "languages": [
+      "Dutch",
+      "Papiamento"
+    ]
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "continent": "Oceania",
+    "capital": "Canberra",
+    "colors": [
+      "#012169",
+      "#FFFFFF",
+      "#E4002B"
+    ],
+    "colorCount": 3,
+    "population": 27536874,
+    "area": 7692024,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "continent": "Europe",
+    "capital": "Vienna",
+    "colors": [
+      "#ED2939",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 9200931,
+    "area": 83871,
+    "languages": [
+      "German"
+    ]
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "continent": "Europe",
+    "capital": "Baku",
+    "colors": [
+      "#0092BC",
+      "#E4002B",
+      "#00AF66",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 10241722,
+    "area": 86600,
+    "languages": [
+      "Azerbaijani"
+    ]
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "continent": "North America",
+    "capital": "Nassau",
+    "colors": [
+      "#00ABC9",
+      "#FFC72C",
+      "#000000"
+    ],
+    "colorCount": 3,
+    "population": 398165,
+    "area": 13943,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "continent": "Asia",
+    "capital": "Manama",
+    "colors": [
+      "#FFFFFF",
+      "#CE1126"
+    ],
+    "colorCount": 2,
+    "population": 1594654,
+    "area": 765,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "continent": "Asia",
+    "capital": "Dhaka",
+    "colors": [
+      "#006A4E",
+      "#F42A41"
+    ],
+    "colorCount": 2,
+    "population": 169828911,
+    "area": 147570,
+    "languages": [
+      "Bengali"
+    ]
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "continent": "North America",
+    "capital": "Bridgetown",
+    "colors": [
+      "#00267F",
+      "#FFC726",
+      "#000000"
+    ],
+    "colorCount": 3,
+    "population": 267800,
+    "area": 430,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "continent": "Europe",
+    "capital": "Minsk",
+    "colors": [
+      "#C8313E",
+      "#4AA657",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 9109280,
+    "area": 207600,
+    "languages": [
+      "Belarusian",
+      "Russian"
+    ]
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "continent": "Europe",
+    "capital": "Brussels",
+    "colors": [
+      "#000000",
+      "#FAE042",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 11825551,
+    "area": 30528,
+    "languages": [
+      "German",
+      "French",
+      "Dutch"
+    ]
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "continent": "North America",
+    "capital": "Belmopan",
+    "colors": [
+      "#003F87",
+      "#CE1126",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 417634,
+    "area": 22966,
+    "languages": [
+      "Belizean Creole",
+      "English",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "continent": "Africa",
+    "capital": "Porto-Novo",
+    "colors": [
+      "#008751",
+      "#FCD116",
+      "#E8112D"
+    ],
+    "colorCount": 3,
+    "population": 13224860,
+    "area": 112622,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "continent": "North America",
+    "capital": "Hamilton",
+    "colors": [
+      "#CF142B",
+      "#FFFFFF",
+      "#012169"
+    ],
+    "colorCount": 3,
+    "population": 64055,
+    "area": 54,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "continent": "Asia",
+    "capital": "Thimphu",
+    "colors": [
+      "#FF4E12",
+      "#FFD520",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 784043,
+    "area": 38394,
+    "languages": [
+      "Dzongkha"
+    ]
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "continent": "South America",
+    "capital": "Sucre",
+    "colors": [
+      "#D52B1E",
+      "#F9E300",
+      "#007934"
+    ],
+    "colorCount": 3,
+    "population": 11365333,
+    "area": 1098581,
+    "languages": [
+      "Aymara",
+      "Guaraní",
+      "Quechua",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "continent": "Europe",
+    "capital": "Sarajevo",
+    "colors": [
+      "#002395",
+      "#FECB00",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 3422000,
+    "area": 51209,
+    "languages": [
+      "Bosnian",
+      "Croatian",
+      "Serbian"
+    ]
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "continent": "Africa",
+    "capital": "Gaborone",
+    "colors": [
+      "#75AADB",
+      "#FFFFFF",
+      "#000000"
+    ],
+    "colorCount": 3,
+    "population": 2359609,
+    "area": 582000,
+    "languages": [
+      "English",
+      "Tswana"
+    ]
+  },
+  {
+    "code": "BV",
+    "name": "Bouvet Island",
+    "continent": "Antarctica",
+    "capital": "N/A",
+    "colors": [],
+    "colorCount": 0,
+    "population": 0,
+    "area": 49,
+    "languages": [
+      "Norwegian"
+    ]
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "continent": "South America",
+    "capital": "Brasília",
+    "colors": [
+      "#009C3B",
+      "#FFDF00",
+      "#002776",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 213421037,
+    "area": 8515767,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  {
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "continent": "Asia",
+    "capital": "Diego Garcia",
+    "colors": [
+      "#002395",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 0,
+    "area": 60,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "VG",
+    "name": "British Virgin Islands",
+    "continent": "North America",
+    "capital": "Road Town",
+    "colors": [
+      "#012169",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 39471,
+    "area": 151,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "continent": "Asia",
+    "capital": "Bandar Seri Begawan",
+    "colors": [
+      "#F7E017",
+      "#FFFFFF",
+      "#000000",
+      "#CF1020"
+    ],
+    "colorCount": 4,
+    "population": 455500,
+    "area": 5765,
+    "languages": [
+      "Malay"
+    ]
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "continent": "Europe",
+    "capital": "Sofia",
+    "colors": [
+      "#FFFFFF",
+      "#00966E",
+      "#D62612"
+    ],
+    "colorCount": 3,
+    "population": 6437360,
+    "area": 110879,
+    "languages": [
+      "Bulgarian"
+    ]
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "continent": "Africa",
+    "capital": "Ouagadougou",
+    "colors": [
+      "#009E49",
+      "#EF2B2D",
+      "#FCD116"
+    ],
+    "colorCount": 3,
+    "population": 24070553,
+    "area": 272967,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "continent": "Africa",
+    "capital": "Gitega",
+    "colors": [
+      "#CE1126",
+      "#1EB53A",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 12332788,
+    "area": 27834,
+    "languages": [
+      "French",
+      "Kirundi"
+    ]
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "continent": "Asia",
+    "capital": "Phnom Penh",
+    "colors": [
+      "#032EA1",
+      "#E00025",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 17577760,
+    "area": 181035,
+    "languages": [
+      "Khmer"
+    ]
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "continent": "Africa",
+    "capital": "Yaoundé",
+    "colors": [
+      "#007A5E",
+      "#CE1126",
+      "#FCD116"
+    ],
+    "colorCount": 3,
+    "population": 29442327,
+    "area": 475442,
+    "languages": [
+      "English",
+      "French"
+    ]
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "continent": "North America",
+    "capital": "Ottawa",
+    "colors": [
+      "#FF0000",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 41651653,
+    "area": 9984670,
+    "languages": [
+      "English",
+      "French"
+    ]
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "continent": "Africa",
+    "capital": "Praia",
+    "colors": [
+      "#003893",
+      "#FFFFFF",
+      "#CF2027",
+      "#F7D116"
+    ],
+    "colorCount": 4,
+    "population": 491233,
+    "area": 4033,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  {
+    "code": "BQ",
+    "name": "Caribbean Netherlands",
+    "continent": "North America",
+    "capital": "Kralendijk",
+    "colors": [],
+    "colorCount": 0,
+    "population": 31980,
+    "area": 328,
+    "languages": [
+      "English",
+      "Dutch",
+      "Papiamento"
+    ]
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "continent": "North America",
+    "capital": "George Town",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#CF142B"
+    ],
+    "colorCount": 3,
+    "population": 84738,
+    "area": 264,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "continent": "Africa",
+    "capital": "Bangui",
+    "colors": [
+      "#003082",
+      "#FFFFFF",
+      "#289728",
+      "#FFCE00",
+      "#D21034"
+    ],
+    "colorCount": 5,
+    "population": 6470307,
+    "area": 622984,
+    "languages": [
+      "French",
+      "Sango"
+    ]
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "continent": "Africa",
+    "capital": "N'Djamena",
+    "colors": [
+      "#002664",
+      "#FECB00",
+      "#C60C30"
+    ],
+    "colorCount": 3,
+    "population": 19340757,
+    "area": 1284000,
+    "languages": [
+      "Arabic",
+      "French"
+    ]
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "continent": "South America",
+    "capital": "Santiago",
+    "colors": [
+      "#0039A6",
+      "#FFFFFF",
+      "#D52B1E"
+    ],
+    "colorCount": 3,
+    "population": 20206953,
+    "area": 756102,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "continent": "Asia",
+    "capital": "Beijing",
+    "colors": [
+      "#DE2910",
+      "#FFDE00"
+    ],
+    "colorCount": 2,
+    "population": 1408280000,
+    "area": 9706961,
+    "languages": [
+      "Chinese"
+    ]
+  },
+  {
+    "code": "CX",
+    "name": "Christmas Island",
+    "continent": "Asia",
+    "capital": "Flying Fish Cove",
+    "colors": [
+      "#0021AD",
+      "#1C8A42",
+      "#FFFFFF",
+      "#F9D616"
+    ],
+    "colorCount": 4,
+    "population": 1692,
+    "area": 135,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "CC",
+    "name": "Cocos (Keeling) Islands",
+    "continent": "Asia",
+    "capital": "West Island",
+    "colors": [
+      "#008000",
+      "#FFFF00",
+      "#000000"
+    ],
+    "colorCount": 3,
+    "population": 593,
+    "area": 14,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "continent": "South America",
+    "capital": "Bogotá",
+    "colors": [
+      "#FCD116",
+      "#003893",
+      "#CE1126"
+    ],
+    "colorCount": 3,
+    "population": 53057212,
+    "area": 1141748,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "continent": "Africa",
+    "capital": "Moroni",
+    "colors": [
+      "#3A8E40",
+      "#FFFFFF",
+      "#FFC61E",
+      "#CE1126",
+      "#3D5897"
+    ],
+    "colorCount": 5,
+    "population": 919901,
+    "area": 1862,
+    "languages": [
+      "Arabic",
+      "French",
+      "Comorian"
+    ]
+  },
+  {
+    "code": "CK",
+    "name": "Cook Islands",
+    "continent": "Oceania",
+    "capital": "Avarua",
+    "colors": [
+      "#012169",
+      "#FFFFFF",
+      "#C8102E"
+    ],
+    "colorCount": 3,
+    "population": 15040,
+    "area": 236,
+    "languages": [
+      "English",
+      "Cook Islands Māori"
+    ]
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "continent": "North America",
+    "capital": "San José",
+    "colors": [
+      "#002B7F",
+      "#FFFFFF",
+      "#CE1126"
+    ],
+    "colorCount": 3,
+    "population": 5309625,
+    "area": 51100,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "continent": "Europe",
+    "capital": "Zagreb",
+    "colors": [
+      "#FF0000",
+      "#FFFFFF",
+      "#171796"
+    ],
+    "colorCount": 3,
+    "population": 3866233,
+    "area": 56594,
+    "languages": [
+      "Croatian"
+    ]
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "continent": "North America",
+    "capital": "Havana",
+    "colors": [
+      "#002A8F",
+      "#FFFFFF",
+      "#CB1515"
+    ],
+    "colorCount": 3,
+    "population": 9748007,
+    "area": 109884,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "CW",
+    "name": "Curaçao",
+    "continent": "North America",
+    "capital": "Willemstad",
+    "colors": [
+      "#002B7F",
+      "#F9E814",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 156115,
+    "area": 444,
+    "languages": [
+      "English",
+      "Dutch",
+      "Papiamento"
+    ]
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "continent": "Europe",
+    "capital": "Nicosia",
+    "colors": [
+      "#FFFFFF",
+      "#D47600",
+      "#4E5B31"
+    ],
+    "colorCount": 3,
+    "population": 1442614,
+    "area": 9251,
+    "languages": [
+      "Greek",
+      "Turkish"
+    ]
+  },
+  {
+    "code": "CZ",
+    "name": "Czechia",
+    "continent": "Europe",
+    "capital": "Prague",
+    "colors": [
+      "#D7141A",
+      "#FFFFFF",
+      "#11457E"
+    ],
+    "colorCount": 3,
+    "population": 10882341,
+    "area": 78865,
+    "languages": [
+      "Czech",
+      "Slovak"
+    ]
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "continent": "Europe",
+    "capital": "Copenhagen",
+    "colors": [
+      "#C60C30",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 6011488,
+    "area": 43094,
+    "languages": [
+      "Danish"
+    ]
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "continent": "Africa",
+    "capital": "Djibouti",
+    "colors": [
+      "#6AB2E7",
+      "#12AD2B",
+      "#FFFFFF",
+      "#D7141A"
+    ],
+    "colorCount": 4,
+    "population": 1066809,
+    "area": 23200,
+    "languages": [
+      "Arabic",
+      "French"
+    ]
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "continent": "North America",
+    "capital": "Roseau",
+    "colors": [
+      "#006B3F",
+      "#FCD116",
+      "#FFFFFF",
+      "#000000",
+      "#D41C30",
+      "#9461C9"
+    ],
+    "colorCount": 6,
+    "population": 67408,
+    "area": 751,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "continent": "North America",
+    "capital": "Santo Domingo",
+    "colors": [
+      "#002D62",
+      "#CE1126",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 10771504,
+    "area": 48671,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "CD",
+    "name": "DR Congo",
+    "continent": "Africa",
+    "capital": "Kinshasa",
+    "colors": [
+      "#007FFF",
+      "#F7D618",
+      "#CE1021"
+    ],
+    "colorCount": 3,
+    "population": 112832000,
+    "area": 2344858,
+    "languages": [
+      "French",
+      "Kikongo",
+      "Lingala",
+      "Tshiluba",
+      "Swahili"
+    ]
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "continent": "South America",
+    "capital": "Quito",
+    "colors": [
+      "#FFE100",
+      "#0033A0",
+      "#CE1126"
+    ],
+    "colorCount": 3,
+    "population": 18103660,
+    "area": 276841,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "continent": "Africa",
+    "capital": "Cairo",
+    "colors": [
+      "#CE1126",
+      "#FFFFFF",
+      "#000000",
+      "#C09300"
+    ],
+    "colorCount": 4,
+    "population": 107271260,
+    "area": 1002450,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "continent": "North America",
+    "capital": "San Salvador",
+    "colors": [
+      "#0F47AF",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 6029976,
+    "area": 21041,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "continent": "Africa",
+    "capital": "Malabo",
+    "colors": [
+      "#3E9A00",
+      "#FFFFFF",
+      "#E32118",
+      "#0073CE"
+    ],
+    "colorCount": 4,
+    "population": 1668768,
+    "area": 28051,
+    "languages": [
+      "French",
+      "Portuguese",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "continent": "Africa",
+    "capital": "Asmara",
+    "colors": [
+      "#4189DD",
+      "#EA0437",
+      "#12AD2B",
+      "#FFC72C"
+    ],
+    "colorCount": 4,
+    "population": 3607000,
+    "area": 117600,
+    "languages": [
+      "Arabic",
+      "English",
+      "Tigrinya"
+    ]
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "continent": "Europe",
+    "capital": "Tallinn",
+    "colors": [
+      "#0072CE",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 1369995,
+    "area": 45227,
+    "languages": [
+      "Estonian"
+    ]
+  },
+  {
+    "code": "SZ",
+    "name": "Eswatini",
+    "continent": "Africa",
+    "capital": "Mbabane",
+    "colors": [
+      "#3E5EB9",
+      "#FFD900",
+      "#CE1126",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "colorCount": 5,
+    "population": 1235549,
+    "area": 17364,
+    "languages": [
+      "English",
+      "Swazi"
+    ]
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "continent": "Africa",
+    "capital": "Addis Ababa",
+    "colors": [
+      "#078930",
+      "#FCDD09",
+      "#DA121A",
+      "#0F47AF"
+    ],
+    "colorCount": 4,
+    "population": 111652998,
+    "area": 1104300,
+    "languages": [
+      "Amharic"
+    ]
+  },
+  {
+    "code": "FK",
+    "name": "Falkland Islands",
+    "continent": "South America",
+    "capital": "Stanley",
+    "colors": [
+      "#002395",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 3662,
+    "area": 12173,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "FO",
+    "name": "Faroe Islands",
+    "continent": "Europe",
+    "capital": "Tórshavn",
+    "colors": [
+      "#FFFFFF",
+      "#005EB8",
+      "#EF303E"
+    ],
+    "colorCount": 3,
+    "population": 54885,
+    "area": 1393,
+    "languages": [
+      "Danish",
+      "Faroese"
+    ]
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "continent": "Oceania",
+    "capital": "Suva",
+    "colors": [
+      "#68BFE5",
+      "#FFFFFF",
+      "#002868",
+      "#CF1628"
+    ],
+    "colorCount": 4,
+    "population": 900869,
+    "area": 18272,
+    "languages": [
+      "English",
+      "Fijian",
+      "Fiji Hindi"
+    ]
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "continent": "Europe",
+    "capital": "Helsinki",
+    "colors": [
+      "#FFFFFF",
+      "#003580"
+    ],
+    "colorCount": 2,
+    "population": 5650325,
+    "area": 338455,
+    "languages": [
+      "Finnish",
+      "Swedish"
+    ]
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "continent": "Europe",
+    "capital": "Paris",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 66351959,
+    "area": 543908,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "GF",
+    "name": "French Guiana",
+    "continent": "South America",
+    "capital": "Cayenne",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 292354,
+    "area": 83534,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "PF",
+    "name": "French Polynesia",
+    "continent": "Oceania",
+    "capital": "Papeetē",
+    "colors": [
+      "#FFFFFF",
+      "#ED2939",
+      "#002395"
+    ],
+    "colorCount": 3,
+    "population": 279500,
+    "area": 4167,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "TF",
+    "name": "French Southern and Antarctic Lands",
+    "continent": "Antarctica",
+    "capital": "Port-aux-Français",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 400,
+    "area": 7747,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "continent": "Africa",
+    "capital": "Libreville",
+    "colors": [
+      "#009E60",
+      "#FCD116",
+      "#3A75C4"
+    ],
+    "colorCount": 3,
+    "population": 2469296,
+    "area": 267668,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "continent": "Africa",
+    "capital": "Banjul",
+    "colors": [
+      "#3A7728",
+      "#FFFFFF",
+      "#CE1126",
+      "#0C1C8C"
+    ],
+    "colorCount": 4,
+    "population": 2422712,
+    "area": 10689,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "continent": "Asia",
+    "capital": "Tbilisi",
+    "colors": [
+      "#FFFFFF",
+      "#FF0000"
+    ],
+    "colorCount": 2,
+    "population": 4000921,
+    "area": 69700,
+    "languages": [
+      "Georgian"
+    ]
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "continent": "Europe",
+    "capital": "Berlin",
+    "colors": [
+      "#000000",
+      "#DD0000",
+      "#FFCE00"
+    ],
+    "colorCount": 3,
+    "population": 83491249,
+    "area": 357114,
+    "languages": [
+      "German"
+    ]
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "continent": "Africa",
+    "capital": "Accra",
+    "colors": [
+      "#EF2929",
+      "#FCD116",
+      "#006B3F",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 33742380,
+    "area": 238533,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "continent": "Europe",
+    "capital": "Gibraltar",
+    "colors": [
+      "#FFFFFF",
+      "#DA000C"
+    ],
+    "colorCount": 2,
+    "population": 38000,
+    "area": 6,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "continent": "Europe",
+    "capital": "Athens",
+    "colors": [
+      "#0D5EAF",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 10400720,
+    "area": 131990,
+    "languages": [
+      "Greek"
+    ]
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "continent": "North America",
+    "capital": "Nuuk",
+    "colors": [
+      "#FFFFFF",
+      "#D00C33"
+    ],
+    "colorCount": 2,
+    "population": 56542,
+    "area": 2166086,
+    "languages": [
+      "Greenlandic"
+    ]
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "continent": "North America",
+    "capital": "St. George's",
+    "colors": [
+      "#CE1126",
+      "#FCD116",
+      "#007A5E"
+    ],
+    "colorCount": 3,
+    "population": 109021,
+    "area": 344,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "GP",
+    "name": "Guadeloupe",
+    "continent": "North America",
+    "capital": "Basse-Terre",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 378561,
+    "area": 1628,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "continent": "Oceania",
+    "capital": "Hagåtña",
+    "colors": [
+      "#002387",
+      "#CE2029",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 153836,
+    "area": 549,
+    "languages": [
+      "Chamorro",
+      "English",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "continent": "North America",
+    "capital": "Guatemala City",
+    "colors": [
+      "#4997D0",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 18079810,
+    "area": 108889,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "continent": "Europe",
+    "capital": "St. Peter Port",
+    "colors": [
+      "#FFFFFF",
+      "#E8112D",
+      "#F9DD16"
+    ],
+    "colorCount": 3,
+    "population": 64781,
+    "area": 78,
+    "languages": [
+      "English",
+      "French",
+      "Guernésiais"
+    ]
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "continent": "Africa",
+    "capital": "Conakry",
+    "colors": [
+      "#CE1126",
+      "#FCD116",
+      "#009460"
+    ],
+    "colorCount": 3,
+    "population": 14363931,
+    "area": 245857,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "continent": "Africa",
+    "capital": "Bissau",
+    "colors": [
+      "#CE1126",
+      "#FCD116",
+      "#009E49",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 1781308,
+    "area": 36125,
+    "languages": [
+      "Portuguese",
+      "Upper Guinea Creole"
+    ]
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "continent": "South America",
+    "capital": "Georgetown",
+    "colors": [
+      "#009E49",
+      "#FFFFFF",
+      "#FCD116",
+      "#CE1126",
+      "#000000"
+    ],
+    "colorCount": 5,
+    "population": 772975,
+    "area": 214969,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "continent": "North America",
+    "capital": "Port-au-Prince",
+    "colors": [
+      "#00209F",
+      "#D21034",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 11867032,
+    "area": 27750,
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ]
+  },
+  {
+    "code": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "continent": "Antarctica",
+    "capital": "N/A",
+    "colors": [],
+    "colorCount": 0,
+    "population": 0,
+    "area": 412,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "continent": "North America",
+    "capital": "Tegucigalpa",
+    "colors": [
+      "#0073CF",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 9892632,
+    "area": 112492,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "continent": "Asia",
+    "capital": "City of Victoria",
+    "colors": [
+      "#DE2910",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 7527500,
+    "area": 1104,
+    "languages": [
+      "English",
+      "Chinese"
+    ]
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "continent": "Europe",
+    "capital": "Budapest",
+    "colors": [
+      "#CD2A3E",
+      "#FFFFFF",
+      "#436F4D"
+    ],
+    "colorCount": 3,
+    "population": 9539502,
+    "area": 93028,
+    "languages": [
+      "Hungarian"
+    ]
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "continent": "Europe",
+    "capital": "Reykjavik",
+    "colors": [
+      "#02529C",
+      "#FFFFFF",
+      "#DC1E35"
+    ],
+    "colorCount": 3,
+    "population": 391810,
+    "area": 103000,
+    "languages": [
+      "Icelandic"
+    ]
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "continent": "Asia",
+    "capital": "New Delhi",
+    "colors": [
+      "#FF9933",
+      "#FFFFFF",
+      "#138808",
+      "#000080"
+    ],
+    "colorCount": 4,
+    "population": 1417492000,
+    "area": 3287263,
+    "languages": [
+      "English",
+      "Hindi",
+      "Tamil"
+    ]
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "continent": "Asia",
+    "capital": "Jakarta",
+    "colors": [
+      "#FF0000",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 284438782,
+    "area": 1904569,
+    "languages": [
+      "Indonesian"
+    ]
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "continent": "Asia",
+    "capital": "Tehran",
+    "colors": [
+      "#239F40",
+      "#FFFFFF",
+      "#DA0000"
+    ],
+    "colorCount": 3,
+    "population": 85961000,
+    "area": 1648195,
+    "languages": [
+      "Persian (Farsi)"
+    ]
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "continent": "Asia",
+    "capital": "Baghdad",
+    "colors": [
+      "#CE1126",
+      "#FFFFFF",
+      "#007A3D",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 46118793,
+    "area": 438317,
+    "languages": [
+      "Arabic",
+      "Aramaic",
+      "Sorani"
+    ]
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "continent": "Europe",
+    "capital": "Dublin",
+    "colors": [
+      "#169B62",
+      "#FFFFFF",
+      "#FF883E"
+    ],
+    "colorCount": 3,
+    "population": 5458600,
+    "area": 70273,
+    "languages": [
+      "English",
+      "Irish"
+    ]
+  },
+  {
+    "code": "IM",
+    "name": "Isle of Man",
+    "continent": "Europe",
+    "capital": "Douglas",
+    "colors": [
+      "#CF142B",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 84530,
+    "area": 572,
+    "languages": [
+      "English",
+      "Manx"
+    ]
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "continent": "Asia",
+    "capital": "Jerusalem",
+    "colors": [
+      "#FFFFFF",
+      "#0038B8"
+    ],
+    "colorCount": 2,
+    "population": 10134800,
+    "area": 21937,
+    "languages": [
+      "Arabic",
+      "Hebrew"
+    ]
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "continent": "Europe",
+    "capital": "Rome",
+    "colors": [
+      "#009246",
+      "#FFFFFF",
+      "#CE2B37"
+    ],
+    "colorCount": 3,
+    "population": 58927633,
+    "area": 301336,
+    "languages": [
+      "Italian",
+      "Catalan"
+    ]
+  },
+  {
+    "code": "CI",
+    "name": "Ivory Coast",
+    "continent": "Africa",
+    "capital": "Yamoussoukro",
+    "colors": [
+      "#F77F00",
+      "#FFFFFF",
+      "#009E60"
+    ],
+    "colorCount": 3,
+    "population": 31719275,
+    "area": 322463,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "continent": "North America",
+    "capital": "Kingston",
+    "colors": [
+      "#009B3A",
+      "#FED100",
+      "#000000"
+    ],
+    "colorCount": 3,
+    "population": 2825544,
+    "area": 10991,
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ]
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "continent": "Asia",
+    "capital": "Tokyo",
+    "colors": [
+      "#FFFFFF",
+      "#BC002D"
+    ],
+    "colorCount": 2,
+    "population": 123210000,
+    "area": 377930,
+    "languages": [
+      "Japanese"
+    ]
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "continent": "Europe",
+    "capital": "Saint Helier",
+    "colors": [
+      "#FFFFFF",
+      "#DF112D",
+      "#F9DD16"
+    ],
+    "colorCount": 3,
+    "population": 103267,
+    "area": 116,
+    "languages": [
+      "English",
+      "French",
+      "Jèrriais"
+    ]
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "continent": "Asia",
+    "capital": "Amman",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#007A3D",
+      "#CE1126"
+    ],
+    "colorCount": 4,
+    "population": 11734000,
+    "area": 89342,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "continent": "Asia",
+    "capital": "Astana",
+    "colors": [
+      "#00AFCA",
+      "#FEC50C"
+    ],
+    "colorCount": 2,
+    "population": 20426568,
+    "area": 2724900,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ]
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "continent": "Africa",
+    "capital": "Nairobi",
+    "colors": [
+      "#000000",
+      "#BB0000",
+      "#006600",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 53330978,
+    "area": 580367,
+    "languages": [
+      "English",
+      "Swahili"
+    ]
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "continent": "Oceania",
+    "capital": "South Tarawa",
+    "colors": [
+      "#CE1126",
+      "#002B7F",
+      "#FCD116",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 120740,
+    "area": 811,
+    "languages": [
+      "English",
+      "Gilbertese"
+    ]
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "continent": "Europe",
+    "capital": "Pristina",
+    "colors": [
+      "#244AA5",
+      "#D0A650",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 1585566,
+    "area": 10908,
+    "languages": [
+      "Albanian",
+      "Serbian"
+    ]
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "continent": "Asia",
+    "capital": "Kuwait City",
+    "colors": [
+      "#007A3D",
+      "#FFFFFF",
+      "#CE1126",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 4881254,
+    "area": 17818,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "continent": "Asia",
+    "capital": "Bishkek",
+    "colors": [
+      "#E8112D",
+      "#FFEF00"
+    ],
+    "colorCount": 2,
+    "population": 7281800,
+    "area": 199951,
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ]
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "continent": "Asia",
+    "capital": "Vientiane",
+    "colors": [
+      "#CE1126",
+      "#002868",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 7647000,
+    "area": 236800,
+    "languages": [
+      "Lao"
+    ]
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "continent": "Europe",
+    "capital": "Riga",
+    "colors": [
+      "#9E3039",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 1829000,
+    "area": 64559,
+    "languages": [
+      "Latvian"
+    ]
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "continent": "Asia",
+    "capital": "Beirut",
+    "colors": [
+      "#ED1C24",
+      "#FFFFFF",
+      "#00A651"
+    ],
+    "colorCount": 3,
+    "population": 5490000,
+    "area": 10452,
+    "languages": [
+      "Arabic",
+      "French"
+    ]
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "continent": "Africa",
+    "capital": "Maseru",
+    "colors": [
+      "#00209F",
+      "#FFFFFF",
+      "#009543",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 2116427,
+    "area": 30355,
+    "languages": [
+      "English",
+      "Sotho"
+    ]
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "continent": "Africa",
+    "capital": "Monrovia",
+    "colors": [
+      "#BF0A30",
+      "#002868",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 5248621,
+    "area": 111369,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "continent": "Africa",
+    "capital": "Tripoli",
+    "colors": [
+      "#000000",
+      "#239E46",
+      "#E70013"
+    ],
+    "colorCount": 3,
+    "population": 7459000,
+    "area": 1759540,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "continent": "Europe",
+    "capital": "Vaduz",
+    "colors": [
+      "#002B7F",
+      "#CE1126",
+      "#FFD83D"
+    ],
+    "colorCount": 3,
+    "population": 40900,
+    "area": 160,
+    "languages": [
+      "German"
+    ]
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "continent": "Europe",
+    "capital": "Vilnius",
+    "colors": [
+      "#FDB913",
+      "#006A44",
+      "#C1272D"
+    ],
+    "colorCount": 3,
+    "population": 2894886,
+    "area": 65300,
+    "languages": [
+      "Lithuanian"
+    ]
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "continent": "Europe",
+    "capital": "Luxembourg",
+    "colors": [
+      "#00A2E1",
+      "#ED2939",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 681973,
+    "area": 2586,
+    "languages": [
+      "German",
+      "French",
+      "Luxembourgish"
+    ]
+  },
+  {
+    "code": "MO",
+    "name": "Macau",
+    "continent": "Asia",
+    "capital": "N/A",
+    "colors": [
+      "#00785E",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 685900,
+    "area": 30,
+    "languages": [
+      "Portuguese",
+      "Chinese"
+    ]
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "continent": "Africa",
+    "capital": "Antananarivo",
+    "colors": [
+      "#FFFFFF",
+      "#007E3A",
+      "#FC3D32"
+    ],
+    "colorCount": 3,
+    "population": 31727042,
+    "area": 587041,
+    "languages": [
+      "French",
+      "Malagasy"
+    ]
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "continent": "Africa",
+    "capital": "Lilongwe",
+    "colors": [
+      "#000000",
+      "#CE1126",
+      "#339E35"
+    ],
+    "colorCount": 3,
+    "population": 20734262,
+    "area": 118484,
+    "languages": [
+      "English",
+      "Chewa"
+    ]
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "continent": "Asia",
+    "capital": "Kuala Lumpur",
+    "colors": [
+      "#CC0001",
+      "#FFFFFF",
+      "#010066",
+      "#FFCC00"
+    ],
+    "colorCount": 4,
+    "population": 34231700,
+    "area": 330803,
+    "languages": [
+      "English",
+      "Malay"
+    ]
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "continent": "Asia",
+    "capital": "Malé",
+    "colors": [
+      "#D21034",
+      "#007E3A",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 515132,
+    "area": 300,
+    "languages": [
+      "Maldivian"
+    ]
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "continent": "Africa",
+    "capital": "Bamako",
+    "colors": [
+      "#14B53A",
+      "#FCD116",
+      "#CE1126"
+    ],
+    "colorCount": 3,
+    "population": 22395489,
+    "area": 1240192,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "continent": "Europe",
+    "capital": "Valletta",
+    "colors": [
+      "#FFFFFF",
+      "#CF142B"
+    ],
+    "colorCount": 2,
+    "population": 574250,
+    "area": 316,
+    "languages": [
+      "English",
+      "Maltese"
+    ]
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "continent": "Oceania",
+    "capital": "Majuro",
+    "colors": [
+      "#003893",
+      "#FFFFFF",
+      "#DD7500"
+    ],
+    "colorCount": 3,
+    "population": 42418,
+    "area": 181,
+    "languages": [
+      "English",
+      "Marshallese"
+    ]
+  },
+  {
+    "code": "MQ",
+    "name": "Martinique",
+    "continent": "North America",
+    "capital": "Fort-de-France",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 349925,
+    "area": 1128,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "continent": "Africa",
+    "capital": "Nouakchott",
+    "colors": [
+      "#006233",
+      "#FFD700",
+      "#C1272D"
+    ],
+    "colorCount": 3,
+    "population": 4927532,
+    "area": 1030700,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "continent": "Africa",
+    "capital": "Port Louis",
+    "colors": [
+      "#00A551",
+      "#FFD500",
+      "#EA2839",
+      "#131A6D"
+    ],
+    "colorCount": 4,
+    "population": 1243741,
+    "area": 2040,
+    "languages": [
+      "English",
+      "French",
+      "Mauritian Creole"
+    ]
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "continent": "Africa",
+    "capital": "Mamoudzou",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 320901,
+    "area": 374,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "continent": "North America",
+    "capital": "Mexico City",
+    "colors": [
+      "#006341",
+      "#FFFFFF",
+      "#CE1126"
+    ],
+    "colorCount": 3,
+    "population": 130575786,
+    "area": 1964375,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "continent": "Oceania",
+    "capital": "Palikir",
+    "colors": [
+      "#6797D6",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 105564,
+    "area": 702,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "continent": "Europe",
+    "capital": "Chișinău",
+    "colors": [
+      "#0046AE",
+      "#FFD200",
+      "#CC092F"
+    ],
+    "colorCount": 3,
+    "population": 2749076,
+    "area": 33847,
+    "languages": [
+      "Romanian"
+    ]
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "continent": "Europe",
+    "capital": "Monaco",
+    "colors": [
+      "#CE1126",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 38423,
+    "area": 2.02,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "continent": "Asia",
+    "capital": "Ulan Bator",
+    "colors": [
+      "#C4272F",
+      "#015197",
+      "#F9CF02"
+    ],
+    "colorCount": 3,
+    "population": 3544835,
+    "area": 1564110,
+    "languages": [
+      "Mongolian"
+    ]
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "continent": "Europe",
+    "capital": "Podgorica",
+    "colors": [
+      "#C40308",
+      "#D4AF37"
+    ],
+    "colorCount": 2,
+    "population": 623327,
+    "area": 13812,
+    "languages": [
+      "Montenegrin"
+    ]
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "continent": "North America",
+    "capital": "Plymouth",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#C8102E"
+    ],
+    "colorCount": 3,
+    "population": 4386,
+    "area": 102,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "continent": "Africa",
+    "capital": "Rabat",
+    "colors": [
+      "#C1272D",
+      "#006233"
+    ],
+    "colorCount": 2,
+    "population": 36828330,
+    "area": 446550,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ]
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "continent": "Africa",
+    "capital": "Maputo",
+    "colors": [
+      "#009A44",
+      "#000000",
+      "#FCE100",
+      "#D21034",
+      "#FFFFFF"
+    ],
+    "colorCount": 5,
+    "population": 34090466,
+    "area": 801590,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "continent": "Asia",
+    "capital": "Naypyidaw",
+    "colors": [
+      "#FECB00",
+      "#34B233",
+      "#EA2839",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 51316756,
+    "area": 676578,
+    "languages": [
+      "Burmese"
+    ]
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "continent": "Africa",
+    "capital": "Windhoek",
+    "colors": [
+      "#003580",
+      "#D21034",
+      "#009A44",
+      "#FFFFFF",
+      "#FFE700"
+    ],
+    "colorCount": 5,
+    "population": 3022401,
+    "area": 825615,
+    "languages": [
+      "Afrikaans",
+      "German",
+      "English",
+      "Herero",
+      "Khoekhoe",
+      "Kwangali",
+      "Lozi",
+      "Ndonga",
+      "Tswana"
+    ]
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "continent": "Oceania",
+    "capital": "Yaren",
+    "colors": [
+      "#012A6B",
+      "#FFC61E",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 11680,
+    "area": 21,
+    "languages": [
+      "English",
+      "Nauru"
+    ]
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "continent": "Asia",
+    "capital": "Kathmandu",
+    "colors": [
+      "#DC143C",
+      "#003893",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 29911840,
+    "area": 147181,
+    "languages": [
+      "Nepali"
+    ]
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "continent": "Europe",
+    "capital": "Amsterdam",
+    "colors": [
+      "#AE1C28",
+      "#FFFFFF",
+      "#21468B"
+    ],
+    "colorCount": 3,
+    "population": 18100436,
+    "area": 41865,
+    "languages": [
+      "Dutch"
+    ]
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "continent": "Oceania",
+    "capital": "Nouméa",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 264596,
+    "area": 18575,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "continent": "Oceania",
+    "capital": "Wellington",
+    "colors": [
+      "#012169",
+      "#FFFFFF",
+      "#C8102E"
+    ],
+    "colorCount": 3,
+    "population": 5324700,
+    "area": 268838,
+    "languages": [
+      "English",
+      "Māori",
+      "New Zealand Sign Language"
+    ]
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "continent": "North America",
+    "capital": "Managua",
+    "colors": [
+      "#0067C6",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 6803886,
+    "area": 130373,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "continent": "Africa",
+    "capital": "Niamey",
+    "colors": [
+      "#E05206",
+      "#FFFFFF",
+      "#0DB02B"
+    ],
+    "colorCount": 3,
+    "population": 26312034,
+    "area": 1267000,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "continent": "Africa",
+    "capital": "Abuja",
+    "colors": [
+      "#008751",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 223800000,
+    "area": 923768,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "continent": "Oceania",
+    "capital": "Alofi",
+    "colors": [
+      "#FFC72C",
+      "#012169",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 1681,
+    "area": 260,
+    "languages": [
+      "English",
+      "Niuean"
+    ]
+  },
+  {
+    "code": "NF",
+    "name": "Norfolk Island",
+    "continent": "Oceania",
+    "capital": "Kingston",
+    "colors": [
+      "#00A651",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 2188,
+    "area": 36,
+    "languages": [
+      "English",
+      "Norfuk"
+    ]
+  },
+  {
+    "code": "KP",
+    "name": "North Korea",
+    "continent": "Asia",
+    "capital": "Pyongyang",
+    "colors": [
+      "#024FA2",
+      "#FFFFFF",
+      "#ED1C27"
+    ],
+    "colorCount": 3,
+    "population": 25950000,
+    "area": 120538,
+    "languages": [
+      "Korean"
+    ]
+  },
+  {
+    "code": "MK",
+    "name": "North Macedonia",
+    "continent": "Europe",
+    "capital": "Skopje",
+    "colors": [
+      "#D20000",
+      "#FFE600"
+    ],
+    "colorCount": 2,
+    "population": 1822612,
+    "area": 25713,
+    "languages": [
+      "Macedonian"
+    ]
+  },
+  {
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "continent": "Oceania",
+    "capital": "Saipan",
+    "colors": [
+      "#0071BC",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 47329,
+    "area": 464,
+    "languages": [
+      "Carolinian",
+      "Chamorro",
+      "English"
+    ]
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "continent": "Europe",
+    "capital": "Oslo",
+    "colors": [
+      "#EF2B2D",
+      "#FFFFFF",
+      "#002868"
+    ],
+    "colorCount": 3,
+    "population": 5606944,
+    "area": 386224,
+    "languages": [
+      "Norwegian Nynorsk",
+      "Norwegian Bokmål",
+      "Sami"
+    ]
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "continent": "Asia",
+    "capital": "Muscat",
+    "colors": [
+      "#DB161B",
+      "#FFFFFF",
+      "#008000"
+    ],
+    "colorCount": 3,
+    "population": 5343630,
+    "area": 309500,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "continent": "Asia",
+    "capital": "Islamabad",
+    "colors": [
+      "#01411C",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 241499431,
+    "area": 796095,
+    "languages": [
+      "English",
+      "Urdu"
+    ]
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "continent": "Oceania",
+    "capital": "Ngerulmud",
+    "colors": [
+      "#4AADD6",
+      "#FFDE00"
+    ],
+    "colorCount": 2,
+    "population": 16733,
+    "area": 459,
+    "languages": [
+      "English",
+      "Palauan"
+    ]
+  },
+  {
+    "code": "PS",
+    "name": "Palestine",
+    "continent": "Asia",
+    "capital": "Ramallah",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#007A3D",
+      "#CE1126"
+    ],
+    "colorCount": 4,
+    "population": 5483450,
+    "area": 6220,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "continent": "North America",
+    "capital": "Panama City",
+    "colors": [
+      "#FFFFFF",
+      "#DA121A",
+      "#072357"
+    ],
+    "colorCount": 3,
+    "population": 4064780,
+    "area": 75417,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "continent": "Oceania",
+    "capital": "Port Moresby",
+    "colors": [
+      "#000000",
+      "#CE1126",
+      "#FCD116",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 11781559,
+    "area": 462840,
+    "languages": [
+      "English",
+      "Hiri Motu",
+      "Tok Pisin"
+    ]
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "continent": "South America",
+    "capital": "Asunción",
+    "colors": [
+      "#D52B1E",
+      "#FFFFFF",
+      "#0038A8"
+    ],
+    "colorCount": 3,
+    "population": 6109644,
+    "area": 406752,
+    "languages": [
+      "Guaraní",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "continent": "South America",
+    "capital": "Lima",
+    "colors": [
+      "#D91023",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 34350244,
+    "area": 1285216,
+    "languages": [
+      "Aymara",
+      "Quechua",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "continent": "Asia",
+    "capital": "Manila",
+    "colors": [
+      "#0038A8",
+      "#CE1126",
+      "#FCD116",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 114123600,
+    "area": 342353,
+    "languages": [
+      "English",
+      "Filipino"
+    ]
+  },
+  {
+    "code": "PN",
+    "name": "Pitcairn Islands",
+    "continent": "Oceania",
+    "capital": "Adamstown",
+    "colors": [
+      "#012169",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 35,
+    "area": 47,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "continent": "Europe",
+    "capital": "Warsaw",
+    "colors": [
+      "#FFFFFF",
+      "#DC143C"
+    ],
+    "colorCount": 2,
+    "population": 37392000,
+    "area": 312679,
+    "languages": [
+      "Polish"
+    ]
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "continent": "Europe",
+    "capital": "Lisbon",
+    "colors": [
+      "#006600",
+      "#FF0000",
+      "#FFFF00",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 10749635,
+    "area": 92090,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "continent": "North America",
+    "capital": "San Juan",
+    "colors": [
+      "#CC0000",
+      "#FFFFFF",
+      "#0050F0"
+    ],
+    "colorCount": 3,
+    "population": 3203295,
+    "area": 8870,
+    "languages": [
+      "English",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "continent": "Asia",
+    "capital": "Doha",
+    "colors": [
+      "#8D1B3D",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 3173024,
+    "area": 11586,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "CG",
+    "name": "Republic of the Congo",
+    "continent": "Africa",
+    "capital": "Brazzaville",
+    "colors": [
+      "#009543",
+      "#FBDE4A",
+      "#DC241F"
+    ],
+    "colorCount": 3,
+    "population": 6142180,
+    "area": 342000,
+    "languages": [
+      "French",
+      "Kikongo",
+      "Lingala"
+    ]
+  },
+  {
+    "code": "RE",
+    "name": "Réunion",
+    "continent": "Africa",
+    "capital": "Saint-Denis",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 896175,
+    "area": 2511,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "continent": "Europe",
+    "capital": "Bucharest",
+    "colors": [
+      "#002B7F",
+      "#FCD116",
+      "#CE1126"
+    ],
+    "colorCount": 3,
+    "population": 19036031,
+    "area": 238391,
+    "languages": [
+      "Romanian"
+    ]
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "continent": "Europe",
+    "capital": "Moscow",
+    "colors": [
+      "#FFFFFF",
+      "#0039A6",
+      "#D52B1E"
+    ],
+    "colorCount": 3,
+    "population": 146028325,
+    "area": 17098246,
+    "languages": [
+      "Russian"
+    ]
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "continent": "Africa",
+    "capital": "Kigali",
+    "colors": [
+      "#20603D",
+      "#FAD201",
+      "#00A1DE"
+    ],
+    "colorCount": 3,
+    "population": 14104969,
+    "area": 26338,
+    "languages": [
+      "English",
+      "French",
+      "Kinyarwanda"
+    ]
+  },
+  {
+    "code": "BL",
+    "name": "Saint Barthélemy",
+    "continent": "North America",
+    "capital": "Gustavia",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 10562,
+    "area": 21,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "SH",
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "continent": "Africa",
+    "capital": "Jamestown",
+    "colors": [
+      "#012169",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 5651,
+    "area": 394,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "continent": "North America",
+    "capital": "Basseterre",
+    "colors": [
+      "#009E49",
+      "#FCD116",
+      "#CE1126",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "colorCount": 5,
+    "population": 51320,
+    "area": 261,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "continent": "North America",
+    "capital": "Castries",
+    "colors": [
+      "#65CFFF",
+      "#FCD116",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 184100,
+    "area": 616,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "MF",
+    "name": "Saint Martin",
+    "continent": "North America",
+    "capital": "Marigot",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 31496,
+    "area": 53,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "continent": "North America",
+    "capital": "Saint-Pierre",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 5819,
+    "area": 242,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "continent": "North America",
+    "capital": "Kingstown",
+    "colors": [
+      "#0072C6",
+      "#FCD116",
+      "#009E60"
+    ],
+    "colorCount": 3,
+    "population": 110872,
+    "area": 389,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "continent": "Oceania",
+    "capital": "Apia",
+    "colors": [
+      "#CE1126",
+      "#002B7F",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 205557,
+    "area": 2842,
+    "languages": [
+      "English",
+      "Samoan"
+    ]
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "continent": "Europe",
+    "capital": "City of San Marino",
+    "colors": [
+      "#FFFFFF",
+      "#5EB6E4"
+    ],
+    "colorCount": 2,
+    "population": 34132,
+    "area": 61,
+    "languages": [
+      "Italian"
+    ]
+  },
+  {
+    "code": "ST",
+    "name": "São Tomé and Príncipe",
+    "continent": "Africa",
+    "capital": "São Tomé",
+    "colors": [
+      "#12AD2B",
+      "#FFCE00",
+      "#D21034",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 209607,
+    "area": 964,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "continent": "Asia",
+    "capital": "Riyadh",
+    "colors": [
+      "#006C35",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 35300280,
+    "area": 2149690,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "continent": "Africa",
+    "capital": "Dakar",
+    "colors": [
+      "#00853F",
+      "#FDEF42",
+      "#E31B23"
+    ],
+    "colorCount": 3,
+    "population": 18593258,
+    "area": 196722,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "continent": "Europe",
+    "capital": "Belgrade",
+    "colors": [
+      "#C6363C",
+      "#0C4076",
+      "#FFFFFF",
+      "#EEAD2D"
+    ],
+    "colorCount": 4,
+    "population": 6567783,
+    "area": 77589,
+    "languages": [
+      "Serbian"
+    ]
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "continent": "Africa",
+    "capital": "Victoria",
+    "colors": [
+      "#003F87",
+      "#FCD856",
+      "#D62828",
+      "#FFFFFF",
+      "#007A3D"
+    ],
+    "colorCount": 5,
+    "population": 122729,
+    "area": 452,
+    "languages": [
+      "Seychellois Creole",
+      "English",
+      "French"
+    ]
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "continent": "Africa",
+    "capital": "Freetown",
+    "colors": [
+      "#1EB53A",
+      "#FFFFFF",
+      "#0072C6"
+    ],
+    "colorCount": 3,
+    "population": 9077691,
+    "area": 71740,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "continent": "Asia",
+    "capital": "Singapore",
+    "colors": [
+      "#ED2939",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 6110200,
+    "area": 710,
+    "languages": [
+      "English",
+      "Chinese",
+      "Malay",
+      "Tamil"
+    ]
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten",
+    "continent": "North America",
+    "capital": "Philipsburg",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 41349,
+    "area": 34,
+    "languages": [
+      "English",
+      "French",
+      "Dutch"
+    ]
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "continent": "Europe",
+    "capital": "Bratislava",
+    "colors": [
+      "#FFFFFF",
+      "#0B4EA2",
+      "#EE1C25"
+    ],
+    "colorCount": 3,
+    "population": 5413813,
+    "area": 49037,
+    "languages": [
+      "Slovak"
+    ]
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "continent": "Europe",
+    "capital": "Ljubljana",
+    "colors": [
+      "#FFFFFF",
+      "#005DA4",
+      "#ED1C24"
+    ],
+    "colorCount": 3,
+    "population": 2130638,
+    "area": 20273,
+    "languages": [
+      "Slovene"
+    ]
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "continent": "Oceania",
+    "capital": "Honiara",
+    "colors": [
+      "#0051BA",
+      "#FCD116",
+      "#215B33",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 750325,
+    "area": 28896,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "continent": "Africa",
+    "capital": "Mogadishu",
+    "colors": [
+      "#4189DD",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 19655000,
+    "area": 637657,
+    "languages": [
+      "Arabic",
+      "Somali"
+    ]
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "continent": "Africa",
+    "capital": "Pretoria",
+    "colors": [
+      "#002395",
+      "#DE3831",
+      "#007A4D",
+      "#FFB612",
+      "#FFFFFF",
+      "#000000"
+    ],
+    "colorCount": 6,
+    "population": 63100945,
+    "area": 1221037,
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Southern Ndebele",
+      "Northern Sotho",
+      "Southern Sotho",
+      "Swazi",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zulu"
+    ]
+  },
+  {
+    "code": "GS",
+    "name": "South Georgia",
+    "continent": "Antarctica",
+    "capital": "King Edward Point",
+    "colors": [],
+    "colorCount": 0,
+    "population": 0,
+    "area": 3903,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "continent": "Asia",
+    "capital": "Seoul",
+    "colors": [
+      "#FFFFFF",
+      "#CD2E3A",
+      "#0047A0",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 51159889,
+    "area": 100210,
+    "languages": [
+      "Korean"
+    ]
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "continent": "Africa",
+    "capital": "Juba",
+    "colors": [
+      "#000000",
+      "#DA121A",
+      "#078930",
+      "#FFFFFF",
+      "#0F47AF",
+      "#FCDD09"
+    ],
+    "colorCount": 6,
+    "population": 15786898,
+    "area": 619745,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "continent": "Europe",
+    "capital": "Madrid",
+    "colors": [
+      "#C60B1E",
+      "#FFC400"
+    ],
+    "colorCount": 2,
+    "population": 49315949,
+    "area": 505992,
+    "languages": [
+      "Spanish",
+      "Catalan",
+      "Basque",
+      "Galician"
+    ]
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "continent": "Asia",
+    "capital": "Sri Jayawardenepura Kotte",
+    "colors": [
+      "#8D153A",
+      "#FFB700",
+      "#EB7400",
+      "#005641"
+    ],
+    "colorCount": 4,
+    "population": 21763170,
+    "area": 65610,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ]
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "continent": "Africa",
+    "capital": "Khartoum",
+    "colors": [
+      "#D21034",
+      "#FFFFFF",
+      "#007229",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 51662000,
+    "area": 1886068,
+    "languages": [
+      "Arabic",
+      "English"
+    ]
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "continent": "South America",
+    "capital": "Paramaribo",
+    "colors": [
+      "#377E3F",
+      "#FFFFFF",
+      "#B40A2D",
+      "#ECC81D"
+    ],
+    "colorCount": 4,
+    "population": 616500,
+    "area": 163820,
+    "languages": [
+      "Dutch"
+    ]
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "continent": "Europe",
+    "capital": "Longyearbyen",
+    "colors": [
+      "#EF2B2D",
+      "#FFFFFF",
+      "#002868"
+    ],
+    "colorCount": 3,
+    "population": 2530,
+    "area": 61399,
+    "languages": [
+      "Norwegian"
+    ]
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "continent": "Europe",
+    "capital": "Stockholm",
+    "colors": [
+      "#006AA7",
+      "#FECC02"
+    ],
+    "colorCount": 2,
+    "population": 10605098,
+    "area": 450295,
+    "languages": [
+      "Swedish"
+    ]
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "continent": "Europe",
+    "capital": "Bern",
+    "colors": [
+      "#DA291C",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 9082848,
+    "area": 41284,
+    "languages": [
+      "French",
+      "Swiss German",
+      "Italian",
+      "Romansh"
+    ]
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "continent": "Asia",
+    "capital": "Damascus",
+    "colors": [
+      "#CE1126",
+      "#FFFFFF",
+      "#000000",
+      "#007A3D"
+    ],
+    "colorCount": 4,
+    "population": 25620000,
+    "area": 185180,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "continent": "Asia",
+    "capital": "Taipei",
+    "colors": [
+      "#FE0000",
+      "#000095",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 23317031,
+    "area": 36197,
+    "languages": [
+      "Chinese"
+    ]
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "continent": "Asia",
+    "capital": "Dushanbe",
+    "colors": [
+      "#CC0000",
+      "#FFFFFF",
+      "#006600",
+      "#F8C300"
+    ],
+    "colorCount": 4,
+    "population": 10499000,
+    "area": 143100,
+    "languages": [
+      "Russian",
+      "Tajik"
+    ]
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "continent": "Africa",
+    "capital": "Dodoma",
+    "colors": [
+      "#00A3DD",
+      "#FCD116",
+      "#1EB53A",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 68153004,
+    "area": 947303,
+    "languages": [
+      "English",
+      "Swahili"
+    ]
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "continent": "Asia",
+    "capital": "Bangkok",
+    "colors": [
+      "#A51931",
+      "#F4F5F8",
+      "#2D2A4A"
+    ],
+    "colorCount": 3,
+    "population": 65859640,
+    "area": 513120,
+    "languages": [
+      "Thai"
+    ]
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "continent": "Oceania",
+    "capital": "Dili",
+    "colors": [
+      "#DC241F",
+      "#000000",
+      "#FFCE00",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 1391221,
+    "area": 14874,
+    "languages": [
+      "Portuguese",
+      "Tetum"
+    ]
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "continent": "Africa",
+    "capital": "Lomé",
+    "colors": [
+      "#006A4E",
+      "#FFCE00",
+      "#D21034",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 8095498,
+    "area": 56785,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "continent": "Oceania",
+    "capital": "Fakaofo",
+    "colors": [
+      "#003893",
+      "#FFCC00",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 2608,
+    "area": 12,
+    "languages": [
+      "English",
+      "Samoan",
+      "Tokelauan"
+    ]
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "continent": "Oceania",
+    "capital": "Nuku'alofa",
+    "colors": [
+      "#C10000",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 100179,
+    "area": 747,
+    "languages": [
+      "English",
+      "Tongan"
+    ]
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "continent": "North America",
+    "capital": "Port of Spain",
+    "colors": [
+      "#CE1126",
+      "#FFFFFF",
+      "#000000"
+    ],
+    "colorCount": 3,
+    "population": 1367764,
+    "area": 5130,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "continent": "Africa",
+    "capital": "Tunis",
+    "colors": [
+      "#E70013",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 11972169,
+    "area": 163610,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "continent": "Europe",
+    "capital": "Ankara",
+    "colors": [
+      "#E30A17",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 85664944,
+    "area": 783562,
+    "languages": [
+      "Turkish"
+    ]
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "continent": "Asia",
+    "capital": "Ashgabat",
+    "colors": [
+      "#28AE66",
+      "#FFFFFF",
+      "#D22630"
+    ],
+    "colorCount": 3,
+    "population": 7057841,
+    "area": 488100,
+    "languages": [
+      "Russian",
+      "Turkmen"
+    ]
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "continent": "North America",
+    "capital": "Cockburn Town",
+    "colors": [
+      "#012169",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 50828,
+    "area": 948,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "continent": "Oceania",
+    "capital": "Funafuti",
+    "colors": [
+      "#00247D",
+      "#FFCE00",
+      "#FFFFFF"
+    ],
+    "colorCount": 3,
+    "population": 10643,
+    "area": 26,
+    "languages": [
+      "English",
+      "Tuvaluan"
+    ]
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "continent": "Africa",
+    "capital": "Kampala",
+    "colors": [
+      "#000000",
+      "#FCDC04",
+      "#D90000",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 45905417,
+    "area": 241550,
+    "languages": [
+      "English",
+      "Swahili"
+    ]
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "continent": "Europe",
+    "capital": "Kyiv",
+    "colors": [
+      "#005BBB",
+      "#FFD500"
+    ],
+    "colorCount": 2,
+    "population": 32862000,
+    "area": 603550,
+    "languages": [
+      "Ukrainian"
+    ]
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "continent": "Asia",
+    "capital": "Abu Dhabi",
+    "colors": [
+      "#00732F",
+      "#FFFFFF",
+      "#FF0000",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 11294243,
+    "area": 83600,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "continent": "Europe",
+    "capital": "London",
+    "colors": [
+      "#012169",
+      "#FFFFFF",
+      "#C8102E"
+    ],
+    "colorCount": 3,
+    "population": 69281437,
+    "area": 244376,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "continent": "North America",
+    "capital": "Washington, D.C.",
+    "colors": [
+      "#B31942",
+      "#FFFFFF",
+      "#0A3161"
+    ],
+    "colorCount": 3,
+    "population": 340110988,
+    "area": 9525067,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "UM",
+    "name": "United States Minor Outlying Islands",
+    "continent": "Oceania",
+    "capital": "Washington DC",
+    "colors": [],
+    "colorCount": 0,
+    "population": 0,
+    "area": 34.2,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "VI",
+    "name": "United States Virgin Islands",
+    "continent": "North America",
+    "capital": "Charlotte Amalie",
+    "colors": [
+      "#FFFFFF",
+      "#0050A0",
+      "#FCE300"
+    ],
+    "colorCount": 3,
+    "population": 87146,
+    "area": 347,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "continent": "South America",
+    "capital": "Montevideo",
+    "colors": [
+      "#0038A8",
+      "#FFFFFF",
+      "#FCD116"
+    ],
+    "colorCount": 3,
+    "population": 3499451,
+    "area": 181034,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "continent": "Asia",
+    "capital": "Tashkent",
+    "colors": [
+      "#0099B5",
+      "#FFFFFF",
+      "#1EB53A",
+      "#CE1126"
+    ],
+    "colorCount": 4,
+    "population": 37859698,
+    "area": 447400,
+    "languages": [
+      "Russian",
+      "Uzbek"
+    ]
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "continent": "Oceania",
+    "capital": "Port Vila",
+    "colors": [
+      "#009543",
+      "#D21034",
+      "#FDCE12",
+      "#000000"
+    ],
+    "colorCount": 4,
+    "population": 321409,
+    "area": 12189,
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ]
+  },
+  {
+    "code": "VA",
+    "name": "Vatican City",
+    "continent": "Europe",
+    "capital": "Vatican City",
+    "colors": [
+      "#FFE000",
+      "#FFFFFF"
+    ],
+    "colorCount": 2,
+    "population": 882,
+    "area": 0.49,
+    "languages": [
+      "Italian",
+      "Latin"
+    ]
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "continent": "South America",
+    "capital": "Caracas",
+    "colors": [
+      "#FCE300",
+      "#003DA5",
+      "#EF3340",
+      "#FFFFFF"
+    ],
+    "colorCount": 4,
+    "population": 28517000,
+    "area": 916445,
+    "languages": [
+      "Spanish"
+    ]
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "continent": "Asia",
+    "capital": "Hanoi",
+    "colors": [
+      "#DA251D",
+      "#FFFF00"
+    ],
+    "colorCount": 2,
+    "population": 101343800,
+    "area": 331212,
+    "languages": [
+      "Vietnamese"
+    ]
+  },
+  {
+    "code": "WF",
+    "name": "Wallis and Futuna",
+    "continent": "Oceania",
+    "capital": "Mata-Utu",
+    "colors": [
+      "#002395",
+      "#FFFFFF",
+      "#ED2939"
+    ],
+    "colorCount": 3,
+    "population": 11620,
+    "area": 142,
+    "languages": [
+      "French"
+    ]
+  },
+  {
+    "code": "EH",
+    "name": "Western Sahara",
+    "continent": "Africa",
+    "capital": "El Aaiún",
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#007A3D",
+      "#C4111B"
+    ],
+    "colorCount": 4,
+    "population": 600904,
+    "area": 266000,
+    "languages": [
+      "Berber",
+      "Hassaniya",
+      "Spanish"
+    ]
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "continent": "Asia",
+    "capital": "Sana'a",
+    "colors": [
+      "#CE1126",
+      "#FFFFFF",
+      "#000000"
+    ],
+    "colorCount": 3,
+    "population": 32684503,
+    "area": 527968,
+    "languages": [
+      "Arabic"
+    ]
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "continent": "Africa",
+    "capital": "Lusaka",
+    "colors": [
+      "#198A00",
+      "#DE2010",
+      "#000000",
+      "#EF7D00"
+    ],
+    "colorCount": 4,
+    "population": 19693423,
+    "area": 752612,
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "continent": "Africa",
+    "capital": "Harare",
+    "colors": [
+      "#006400",
+      "#FFD200",
+      "#D40000",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "colorCount": 5,
+    "population": 17073087,
+    "area": 390757,
+    "languages": [
+      "Chibarwe",
+      "English",
+      "Kalanga",
+      "Khoisan",
+      "Ndau",
+      "Northern Ndebele",
+      "Chewa",
+      "Shona",
+      "Sotho",
+      "Tonga",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zimbabwean Sign Language"
+    ]
+  }
+]
