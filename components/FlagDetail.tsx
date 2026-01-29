@@ -36,19 +36,16 @@ export function FlagDetail({ flag }: FlagDetailProps) {
           className="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl overflow-hidden"
         >
           {/* Flag Image */}
-          <div className="aspect-[3/2] relative">
-            <span
-              className={`fi fi-${flag.code.toLowerCase()} fis`}
-              style={{
-                position: "absolute",
-                inset: 0,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-              role="img"
-              aria-label={`Flag of ${flag.name}`}
-            />
-          </div>
+          <div
+            className={`aspect-[3/2] fi fi-${flag.code.toLowerCase()}`}
+            style={{
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+            role="img"
+            aria-label={`Flag of ${flag.name}`}
+          />
 
           {/* Info */}
           <div className="p-6 md:p-8">

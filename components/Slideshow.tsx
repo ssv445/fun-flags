@@ -153,19 +153,16 @@ export function Slideshow({ flags }: SlideshowProps) {
           >
             {/* Flag */}
             <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
-              <div className="aspect-[3/2] relative">
-                <span
-                  className={`fi fi-${currentFlag.code.toLowerCase()} fis`}
-                  style={{
-                    position: "absolute",
-                    inset: 0,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                  role="img"
-                  aria-label={`Flag of ${currentFlag.name}`}
-                />
-              </div>
+              <div
+                className={`aspect-[3/2] fi fi-${currentFlag.code.toLowerCase()}`}
+                style={{
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
+                role="img"
+                aria-label={`Flag of ${currentFlag.name}`}
+              />
             </div>
 
             {/* Info */}

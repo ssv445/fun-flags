@@ -29,39 +29,34 @@ export function FlagCard({ flag, index = 0, onClick, showName = true }: FlagCard
         onClick={onClick}
         className="block flag-card bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
       >
-        <div className="aspect-[4/3] relative overflow-hidden bg-gray-100 dark:bg-gray-700">
-          <span
-            className={`fi fi-${flag.code.toLowerCase()} fis`}
-            style={{
-              position: "absolute",
-              inset: 0,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-            role="img"
-            aria-label={`Flag of ${flag.name}`}
-          />
-        </div>
+        <div
+          className={`aspect-[4/3] fi fi-${flag.code.toLowerCase()}`}
+          style={{
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+          role="img"
+          aria-label={`Flag of ${flag.name}`}
+        />
         {showName && (
           <div className="p-3 text-center">
-            <h3 className="font-semibold text-sm md:text-base text-gray-800 dark:text-white truncate">
+            <h3 className="font-semibold text-sm text-gray-800 dark:text-white truncate">
               {flag.name}
             </h3>
-            {flag.colors.length > 0 && (
-              <div className="flex justify-center gap-1 mt-2">
-                {flag.colors.slice(0, 5).map((color, i) => (
-                  <div
-                    key={i}
-                    className="w-3 h-3 rounded-full border border-gray-200 dark:border-gray-600"
-                    style={{ backgroundColor: color }}
-                    title={color}
-                  />
-                ))}
-                {flag.colors.length > 5 && (
-                  <span className="text-xs text-gray-400">+{flag.colors.length - 5}</span>
-                )}
-              </div>
-            )}
+            <div className="flex justify-center gap-1 mt-2">
+              {flag.colors.slice(0, 4).map((color, i) => (
+                <div
+                  key={i}
+                  className="w-3 h-3 rounded-full border border-gray-200 dark:border-gray-600 flex-shrink-0"
+                  style={{ backgroundColor: color }}
+                  title={color}
+                />
+              ))}
+              {flag.colors.length > 4 && (
+                <span className="text-xs text-gray-400">+{flag.colors.length - 4}</span>
+              )}
+            </div>
           </div>
         )}
       </Link>
