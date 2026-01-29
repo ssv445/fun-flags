@@ -1,4 +1,4 @@
-const CACHE_NAME = "fun-flags-v1";
+const CACHE_NAME = "flags-for-kids-v1";
 const STATIC_ASSETS = [
   "/",
   "/slideshow",

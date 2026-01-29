@@ -22,7 +22,7 @@ export function Header() {
             </motion.div>
             <div>
               <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-coral via-sunny to-sky bg-clip-text text-transparent">
-                Fun Flags
+                Flags for Kids
               </h1>
               <p className="text-xs text-gray-500 dark:text-gray-400 hidden sm:block">
                 Explore the world!

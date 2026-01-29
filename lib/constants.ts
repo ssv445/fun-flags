@@ -1,4 +1,4 @@
-export const SITE_NAME = "Fun Flags";
+export const SITE_NAME = "Flags for Kids";
 export const SITE_DESCRIPTION = "Explore all world flags with fun animations and filters!";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://funflags.app";
 

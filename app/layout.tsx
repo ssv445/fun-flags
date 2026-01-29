@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   keywords: ["flags", "countries", "world flags", "kids", "education", "geography"],
-  authors: [{ name: "Fun Flags" }],
+  authors: [{ name: "Shyam Verma" }],
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,

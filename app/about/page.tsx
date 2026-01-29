@@ -22,7 +22,7 @@ export default function AboutPage() {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg"
           >
-            About Fun Flags
+            About Flags for Kids
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -48,7 +48,7 @@ export default function AboutPage() {
             <span>🌍</span> About This App
           </h2>
           <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-            Fun Flags is a kid-friendly app designed to help children explore and learn about flags
+            Flags for Kids is a fun app designed to help children explore and learn about flags
             from over 250 countries around the world. With colorful filters, a slideshow mode, and
             detailed flag information, learning about geography has never been more fun!
           </p>
